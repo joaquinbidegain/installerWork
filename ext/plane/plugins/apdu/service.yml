@@ -1,0 +1,9 @@
+plugins:
+    -
+        name: apdu
+        jar: plugin.apdu.isc
+        service: uy.isaportal.iscert.apdu.RetrieveCIData
+    -
+        name: pades
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesSimplePlugin

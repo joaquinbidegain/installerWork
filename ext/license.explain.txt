@@ -1,0 +1,43 @@
+## Licencia real
+
+Para que funcionen las licencias, es necesario generar el launcher y hub.isc desde la rama correcta del manager y el server, respectivamente. 
+Esta rama se llama licence en ambos casos. También es necesario agregar el archivo ext/license/cert/license.crt en el spec.iss, para que se instale 
+en license/cert/license.crt dentro de la carpeta de instalación.
+
+Una licencia se genera desde un archivo $nombre_licencia.raw. 
+El jar ejecutable que se encarga de generar el archivo de licencia $nombre_licencia.license es license.jar, y se ejecuta como sigue:
+
+java -jar license.jar $nombre_licencia.raw
+
+Esto te pide un certificado y su password (dos veces) y no se cierra, pero deja el archivo de licencia en la misma carpeta enseguida. Este debe ser renombrado y entregado al usuario, quien debe colocarlo en "C:/iSCert Hub/license/default.license".
+Actualmente lo que estaria faltando es una forma de "instalar" este archivo desde el manager, o se puede agregar al instalador si no importa tener la misma licencia compartida por varios usuarios.
+
+El archivo .raw es un json:
+
+{
+	"issuer": {
+		"name": "Nombre del encargado de emitir el certificado",
+		"organization": "Organización",
+		"unit": "Sector dentro de la organización",
+		"country":"País"
+	},
+	"subject": {
+		"name": "Nombre del usuario",
+		"organization": "Organización",
+		"unit": "Sector dentro de la organización",
+		"country":"País"
+	},
+	"plugins": [
+		"plugin1",
+		"...",
+		"pluginN"
+	],
+	"valid": {
+		"type":"BOUNDED", (Si la licencia vence, o UNBOUNDED si no vence)
+		"notBefore":"2016-09-27T02:40", (Fecha de inicio)
+		"notAfter": "2018-09-27T02:40" (Fecha de vencimiento)
+	}
+}
+
+
+El usuario solo podrá los plugins del json array plugins.

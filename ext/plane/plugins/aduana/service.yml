@@ -1,0 +1,9 @@
+plugins:
+    -
+        name: pades
+        jar: plugin.pades.isc
+        service: uy.isaportal.iscert.pades.PadesSigner
+    -
+        name: xml-sign
+        jar: plugin.xml-sign.isc
+        service: uy.isaportal.iscert.plugin.sign.xml.SignXml

@@ -1,0 +1,49 @@
+plugins:
+    -
+        name: sign-p7-multi
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7MultiKeyStorePlugin
+    -
+        name: sign-p7-token
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7TokenKeyStorePlugin
+    -
+        name: sign-p7-win
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7WindowsStorePlugin
+    -
+        name: sign-p7-fs
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7FileSystemKeyStorePlugin
+    -
+        name: wacom
+        jar: plugin.wacom.isc
+        service: uy.isaportal.iscert.plugin.wacom.external.Reader
+    -
+        name: deviceinfo 
+        jar: plugin.deviceinfo.isc
+        service: uy.isaportal.iscert.plugin.deviceinfo.hiperic.host.SysInfo
+    -
+        name: xmlsign
+        jar: plugin.xmlsign.isc
+        service: uy.isaportal.iscert.plugin.xmlsign.signers.XadesSigner
+    -
+        name: apdu
+        jar: plugin.apdu.isc
+        service: uy.isaportal.iscert.apdu.RetrieveCIData
+    -
+        name: pades
+        jar: plugin.pades.isc
+        service: uy.isaportal.iscert.pades.PadesSigner
+    -
+        name: xml-sign
+        jar: plugin.xml-sign.isc
+        service: uy.isaportal.iscert.plugin.sign.xml.SignXml
+    -
+        name: pdf-sign
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesPlugin
+    -
+        name: pdf-print
+        jar: plugin.pdf-print.isc
+        service: uy.isaportal.iscert.plugin.PrintPDFPlugin

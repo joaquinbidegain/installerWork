@@ -1,0 +1,5 @@
+plugins:
+    -
+        name: nombre
+        jar: plugin.nombre.isc
+        service: ruta.a.la.implementación.de.la.interfaz.Plugin

@@ -1,0 +1,9 @@
+plugins:
+    -
+        name: xml-sign
+        jar: plugin.xml-sign.isc
+        service: uy.isaportal.iscert.plugin.sign.xml.SignXml
+    -
+        name: pdf-sign
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesPlugin

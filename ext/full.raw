@@ -1,0 +1,31 @@
+{
+	"issuer": {		
+		"name": "Mauricio Irace",
+		"organization": "ISA LTDA",
+		"unit": "iSCert",
+		"country":"UY"
+	},
+	"subject": {		
+		"name": "Walter Suarez",
+		"organization": "ISA LTDA",
+		"unit": "iSCert",
+		"country":"UY"
+	},
+	"plugins": [
+		"sign-p7-multi",
+		"sign-p7-token",
+		"sign-p7-win",
+		"sign-p7-fs",
+		"wacom",
+		"deviceinfo",
+		"xmlsign",
+		"apdu",
+		"pades",
+		"xml-sign",
+		"pdf-sign",
+		"pdf-print"
+	],
+	"valid": {
+		"type": "UNBOUNDED"
+	}
+}

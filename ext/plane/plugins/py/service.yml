@@ -1,0 +1,13 @@
+plugins:
+    -
+        name: wacom
+        jar: plugin.wacom.isc
+        service: uy.isaportal.iscert.plugin.wacom.external.Reader
+    -
+        name: deviceinfo
+        jar: plugin.deviceinfo.isc
+        service: uy.isaportal.iscert.plugin.deviceinfo.hiperic.host.SysInfo
+    -
+        name: xmlsign
+        jar: plugin.xmlsign.isc
+        service: uy.isaportal.iscert.plugin.xmlsign.signers.XadesSigner

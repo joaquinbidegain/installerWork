@@ -1,0 +1,106 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4591 (0x11ef)
+        Signature Algorithm: sha512WithRSAEncryption
+        Issuer: CN=CA RAIZ 2 UDELAR, OU=-, O=UNIVERSIDAD DE LA REPUBLICA, C=UY
+        Validity
+            Not Before: Jul 29 08:46:40 2020 GMT
+            Not After : Jul 27 08:46:40 2030 GMT
+        Subject: CN=127.0.0.1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:a7:58:1d:2f:dd:c9:f8:1f:a7:14:7f:44:b9:2f:
+                    f1:db:ce:bb:18:d6:18:59:81:3b:45:31:ab:07:76:
+                    6a:76:0c:05:a6:84:c0:d8:94:a6:f7:e0:92:6f:cc:
+                    d4:ff:4e:c9:76:48:7d:69:e5:bc:c1:b8:30:cc:f4:
+                    a1:e0:1e:b7:0c:99:16:4a:96:fc:4d:81:7a:54:c2:
+                    3e:ed:c9:3f:68:c6:58:aa:45:6a:ee:de:30:ff:e9:
+                    e4:5c:3b:49:cd:b7:59:31:2e:41:46:7d:c4:aa:24:
+                    e5:a8:bf:10:a0:32:a8:40:4e:3c:ea:cb:f3:70:99:
+                    09:a7:d2:e3:d1:f1:61:c2:15:1f:f4:de:2c:40:44:
+                    f3:7f:52:71:65:c4:28:62:97:7a:58:84:2f:86:f6:
+                    a7:48:87:26:0b:f5:78:8b:7f:4a:d8:8f:1b:e1:25:
+                    11:8f:8c:01:aa:14:46:e8:06:c8:72:40:0e:9e:dc:
+                    6a:2f:7b:3b:ca:5c:70:aa:ac:a1:95:88:3b:0e:62:
+                    6e:57:f0:66:c6:f2:f5:5f:8b:3b:43:53:f9:61:39:
+                    72:f2:59:dd:63:c8:98:d2:9c:0e:27:5a:a0:53:55:
+                    9f:06:83:7d:e0:95:d8:40:31:43:26:50:9a:ad:bb:
+                    82:7f:04:b6:a0:1c:ca:80:15:6f:64:81:20:da:c6:
+                    a9:e7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                7F:D6:D7:3F:93:F4:84:7A:F7:EC:5D:C4:2F:20:D5:CA:12:E8:37:D6
+            X509v3 Authority Key Identifier: 
+                keyid:3D:CF:15:46:EC:B6:1B:FC:97:A7:6B:CC:38:70:D0:CF:46:AC:4A:2B
+                DirName:/CN=CA RAIZ 2 UDELAR/OU=-/O=UNIVERSIDAD DE LA REPUBLICA/C=UY
+                serial:DB:85:EE:53:54:EF:49:0D
+
+            X509v3 Subject Alternative Name: 
+                DNS:127.0.0.1, IP Address:127.0.0.1, URI:http://127.0.0.1
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+    Signature Algorithm: sha512WithRSAEncryption
+        5c:7b:4d:7b:32:13:12:43:a7:a2:ff:3c:74:b3:2c:4d:1a:8f:
+        0b:72:ae:78:f4:29:e5:e5:31:fd:49:67:ee:fa:5b:36:bd:2c:
+        56:64:80:a8:1c:ac:8f:7f:08:04:e7:8b:c1:4c:d2:98:3b:54:
+        66:cf:92:6d:35:eb:f4:07:53:5f:da:de:31:f3:95:59:60:1e:
+        e6:a6:0c:52:02:03:3f:6d:fe:56:78:55:cf:4b:2c:60:c5:d6:
+        77:cd:e9:45:73:ad:15:95:ce:5b:3c:27:cc:37:a0:40:4d:3d:
+        77:9b:f1:44:2f:78:aa:7e:e3:44:70:43:1f:d2:71:b8:81:05:
+        50:a0:85:f2:1a:89:3d:d2:e2:1f:62:d9:da:4d:04:f8:34:fe:
+        91:57:55:f0:b0:78:ad:79:4c:64:3c:0a:79:0d:92:ea:4a:38:
+        97:5f:7f:ad:b9:97:b6:8b:fb:85:84:32:28:ac:f6:5e:67:37:
+        c1:6c:fd:c9:e6:0e:91:22:90:91:14:66:00:85:2a:1b:9d:c3:
+        a9:b0:d1:bc:ec:01:f8:1b:00:8f:64:8a:0e:ff:5d:30:d9:88:
+        81:fb:09:ab:4f:76:43:62:31:17:83:9a:e3:1f:48:63:53:26:
+        ab:dd:56:0c:8e:a3:c2:c7:7e:de:42:84:f2:0f:40:a3:8d:93:
+        62:f5:aa:29:79:88:4a:da:66:48:63:19:98:83:48:19:47:3c:
+        11:73:42:43:79:68:82:5c:eb:75:28:05:b3:b5:56:c5:12:54:
+        13:a0:1d:a0:2c:5e:84:65:ba:53:68:85:0b:04:53:86:09:0b:
+        dc:9e:0b:9c:ab:6e:c3:46:a6:a6:06:bd:fe:84:62:17:d5:eb:
+        32:72:d0:50:0f:59:34:01:43:32:75:59:14:11:18:97:12:58:
+        66:41:25:29:ca:d0:23:41:08:cf:cd:04:1e:15:6b:58:3c:3a:
+        d9:60:9f:ec:39:2b:48:7e:79:8c:af:fb:7d:86:b7:a0:dd:46:
+        cc:cb:92:8d:8f:2e:be:ec:62:42:61:f4:ec:65:6e:5c:76:52:
+        9c:a0:39:c7:3f:17:8d:81:09:03:24:40:d8:6d:0d:c2:cb:d7:
+        ab:38:22:30:a8:df:fd:e7:c8:8f:94:2b:ba:96:10:d3:af:1e:
+        ba:88:ea:36:96:f6:eb:1d:42:e9:cd:a5:93:fd:9e:87:a9:f0:
+        11:a2:3b:30:4b:6e:ef:cd:45:a2:4e:cd:4c:cc:b2:6e:b8:ae:
+        14:91:0d:b9:0a:c6:9a:af:49:46:ff:50:41:40:6b:b3:e9:d2:
+        d1:83:02:c0:1f:41:f6:7f:fb:3f:73:13:3e:45:a4:e9:14:57:
+        9d:39:ee:e9:4c:d8:0b:0d
+-----BEGIN CERTIFICATE-----
+MIIE9jCCAt6gAwIBAgICEe8wDQYJKoZIhvcNAQENBQAwWjEZMBcGA1UEAxMQQ0Eg
+UkFJWiAyIFVERUxBUjEKMAgGA1UECxMBLTEkMCIGA1UEChMbVU5JVkVSU0lEQUQg
+REUgTEEgUkVQVUJMSUNBMQswCQYDVQQGEwJVWTAeFw0yMDA3MjkwODQ2NDBaFw0z
+MDA3MjcwODQ2NDBaMBQxEjAQBgNVBAMMCTEyNy4wLjAuMTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKdYHS/dyfgfpxR/RLkv8dvOuxjWGFmBO0Uxqwd2
+anYMBaaEwNiUpvfgkm/M1P9OyXZIfWnlvMG4MMz0oeAetwyZFkqW/E2BelTCPu3J
+P2jGWKpFau7eMP/p5Fw7Sc23WTEuQUZ9xKok5ai/EKAyqEBOPOrL83CZCafS49Hx
+YcIVH/TeLEBE839ScWXEKGKXeliEL4b2p0iHJgv1eIt/StiPG+ElEY+MAaoURugG
+yHJADp7cai97O8pccKqsoZWIOw5iblfwZsby9V+LO0NT+WE5cvJZ3WPImNKcDida
+oFNVnwaDfeCV2EAxQyZQmq27gn8EtqAcyoAVb2SBINrGqecCAwEAAaOCAQowggEG
+MAkGA1UdEwQCMAAwHQYDVR0OBBYEFH/W1z+T9IR69+xdxC8g1coS6DfWMIGMBgNV
+HSMEgYQwgYGAFD3PFUbsthv8l6drzDhw0M9GrEoroV6kXDBaMRkwFwYDVQQDExBD
+QSBSQUlaIDIgVURFTEFSMQowCAYDVQQLEwEtMSQwIgYDVQQKExtVTklWRVJTSURB
+RCBERSBMQSBSRVBVQkxJQ0ExCzAJBgNVBAYTAlVZggkA24XuU1TvSQ0wLAYDVR0R
+BCUwI4IJMTI3LjAuMC4xhwR/AAABhhBodHRwOi8vMTI3LjAuMC4xMB0GA1UdJQQW
+MBQGCCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQ0FAAOCAgEAXHtNezIT
+EkOnov88dLMsTRqPC3KuePQp5eUx/Uln7vpbNr0sVmSAqBysj38IBOeLwUzSmDtU
+Zs+SbTXr9AdTX9reMfOVWWAe5qYMUgIDP23+VnhVz0ssYMXWd83pRXOtFZXOWzwn
+zDegQE09d5vxRC94qn7jRHBDH9JxuIEFUKCF8hqJPdLiH2LZ2k0E+DT+kVdV8LB4
+rXlMZDwKeQ2S6ko4l19/rbmXtov7hYQyKKz2Xmc3wWz9yeYOkSKQkRRmAIUqG53D
+qbDRvOwB+BsAj2SKDv9dMNmIgfsJq092Q2IxF4Oa4x9IY1Mmq91WDI6jwsd+3kKE
+8g9Ao42TYvWqKXmIStpmSGMZmINIGUc8EXNCQ3loglzrdSgFs7VWxRJUE6AdoCxe
+hGW6U2iFCwRThgkL3J4LnKtuw0ampga9/oRiF9XrMnLQUA9ZNAFDMnVZFBEYlxJY
+ZkElKcrQI0EIz80EHhVrWDw62WCf7DkrSH55jK/7fYa3oN1GzMuSjY8uvuxiQmH0
+7GVuXHZSnKA5xz8XjYEJAyRA2G0NwsvXqzgiMKjf/efIj5QrupYQ068euojqNpb2
+6x1C6c2lk/2eh6nwEaI7MEtu781Fok7NTMyybriuFJENuQrGmq9JRv9QQUBrs+nS
+0YMCwB9B9n/7P3MTPkWk6RRXnTnu6UzYCw0=
+-----END CERTIFICATE-----

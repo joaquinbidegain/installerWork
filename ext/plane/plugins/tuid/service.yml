@@ -1,0 +1,13 @@
+plugins:
+    -
+        name: tuid-fp
+        jar: plugin.tuid-fingerprint.isc
+        service: uy.isaportal.iscert.plugin.fingerprint.TuIdFingerPrintPlugin
+    -
+        name: pdf-sign-simple
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesSimplePlugin
+    -
+        name: pdf-sign
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesPlugin

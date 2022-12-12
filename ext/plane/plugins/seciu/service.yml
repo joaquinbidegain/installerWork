@@ -1,0 +1,25 @@
+plugins:
+    -
+        name: sign-p7-multi
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7MultiKeyStorePlugin
+    -
+        name: sign-p7-token
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7TokenKeyStorePlugin
+    -
+        name: sign-p7-win
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7WindowsStorePlugin
+    -
+        name: sign-p7-fs
+        jar: plugin.sign-p7.isc
+        service: uy.isaportal.iscert.plugin.signp7.SignP7FileSystemKeyStorePlugin
+    -
+        name: pdf-sign-simple
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesSimplePlugin
+    -
+        name: pdf-sign
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesPlugin

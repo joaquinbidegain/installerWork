@@ -1,0 +1,5 @@
+plugins:
+    -
+        name: pdf-sign
+        jar: plugin.pdf-sign.isc
+        service: uy.isaportal.iscert.hub.session.plugins.PadesPlugin

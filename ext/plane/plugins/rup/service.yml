@@ -1,0 +1,9 @@
+plugins:
+    -
+        name: wacom
+        jar: plugin.wacom.isc
+        service: uy.isaportal.iscert.plugin.wacom.external.Reader
+    -
+        name: pdf-print
+        jar: plugin.pdf-print.isc
+        service: uy.isaportal.iscert.plugin.PrintPDFPlugin

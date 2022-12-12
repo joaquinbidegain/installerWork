@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\home\work\code\java\hub\sign-manager\isc\manager.isc</jar>
+  <outfile>C:\Users\MIrace\Google Drive\iSCert Hub\installer\ext\bin\iSCertHubLauncher.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\MIrace\Google Drive\iSCert Hub\installer\ext\l4j\iscert.ico</icon>
+  <singleInstance>
+    <mutexName>ISAClienteFirma</mutexName>
+    <windowTitle>ISA Cliente Firma</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>uy.isaportal.iscert.signmodule.manager.AppFirmaManager</mainClass>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion>1.8.9</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>

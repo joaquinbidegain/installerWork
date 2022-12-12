@@ -1,0 +1,5 @@
+plugins:
+    -
+        name: plugin-hola-mundo
+        jar: plugin.plugin-hola-mundo.isc
+        service: com.ejemplo.HolaMundoPlugin

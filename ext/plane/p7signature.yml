@@ -1,0 +1,130 @@
+paramName: name
+paramLibrary: library
+paramShowInfo: showInfo
+tokens:
+    -
+        name: eToken
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Windows/System32/eTPKCS11.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libetpkcs11.so
+    -
+        name: ePass2003
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Windows/System32/eps2003csp11.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/opensc-pkcs11.so
+    -
+        name: ePass
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Windows/System32/ep2pk11.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/opensc-pkcs11.so                
+    -
+        name: bit4id
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Windows/System32/bit4npki.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/bit4id/libbit4npki.so
+    -
+        name: SafeSign
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Windows/System32/aetpkss1.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libaetpkss.so.3
+    -
+        name: ACS SmartCard (Gemalto)
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: 'C:/Program Files/Gemalto/Classic Client/BIN/gclib.dll'
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libacospkcs11.so.4.0.3
+    -
+        name: ACS Token x86
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: 'C:/Program Files/Advanced Card Systems Ltd/ACOS5-CryptoMate Admin Client Kit/Middleware/x86/PKCS/acospkcs11.dll'
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libacospkcs11.so.4.0.3
+    -
+        name: ACS Token x64
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: 'C:/Program Files/Advanced Card Systems Ltd/ACOS5-CryptoMate Admin Client Kit/Middleware/x64/PKCS/acospkcs11.dll'
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libacospkcs11.so.4.0.3
+    -
+        name: ClassicClientThales
+        showInfo: true
+        operating_systems:
+            -
+                osx:
+                    - win
+                library: C:/Program Files/Thales/Classic Client/BIN/gclib.dll
+            -
+                osx:
+                    - nix
+                    - nux
+                    - aix
+                library: /usr/lib/libacospkcs11.so.4.0.3

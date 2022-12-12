@@ -1,0 +1,4 @@
+-nameInstaller 
+	PruebaFirmado245
+-plugins
+	@{name="sign-p7-multi";jar="plugin.sign-p7.isc";service="uy.isaportal.iscert.plugin.signp7.SignP7MultiKeyStorePlugin"}
